@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-image: url(./Smart\ Watch.jpg);
+    background-size: 100% 740px;
+}
+.contain {
+    width: 350px;
+    height: 400px;
+    background-color: darkturquoise;
+    text-align: center;
+    margin-left: 36%;
+    margin-top: 8%;
+    color: white;
+}
+.contain .text {
+    position: relative;
+    top: 7%;
+}
+.contain h1 {
+    font-size: 36px;
+    color: green;
+    margin-top: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.inp1 {
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid green;
+    width: 250px;
+    font-size: 19px;
+    margin-top: 50px;
+    outline: none;
+    color: white;
+}
+.inp2 {
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid green;
+    width: 250px;
+    font-size: 19px;
+    margin-top: 50px;
+    outline: none;
+    color: white;
+}
+button {
+    width: 250px;
+    height: 44px;
+    background-color: rgb(4, 143, 46);
+    border: none;
+    font-size: 22px;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover {
+    border: 3px solid rgba(67, 69, 151, 0.863);
+    color: white;
+    font-size: 18px;
+    background-color: black;
+}
+p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+p span {
+    color: darkred;
+    cursor: pointer;
+}
